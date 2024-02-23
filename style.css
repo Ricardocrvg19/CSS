@@ -1,0 +1,177 @@
+/* h1 {
+    color: red;
+    background: black;
+}
+
+p {
+    color: blue;
+    font-size: 20px;
+}
+
+button {
+    background: green;
+     border-color: darkgreen;
+}
+ */
+
+
+/* SELETORES
+* = Universal
+
+Class = Semelhante a um CEP. Ex: class="texto" - HTML -> .texto{P:vp;} - CSS
+
+Id = Seleciona unicamente/exclusivamente. Ex: id="abc" - HTML -> #ab.{P:VP;} - CSS
+
+Caso queira estilizar um ou mais basta adicionar virgula antes da Ex: h1, p, button {P:VP;}*/
+
+/* CORES
+
+Podem ser em RGB:
+                    RED - GREEN - BLUE
+Variando entre 0 e 255
+
+Podem ser em hexadecimal:
+                            Ex: #dddd*/
+/* 
+h1 {
+    color:red;
+    font-size: 25px;
+    font-weight: 300;
+    font-style: italic;
+    text-shadow: 10px 10px 5px red;
+}
+
+p {
+    color:blue;
+    text-transform: lowercase;
+    word-spacing: 25px;
+}
+
+ */
+* {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    margin: 44px 0 144px 76px;
+}
+
+.header {
+
+    font-size: 24px;
+    font-weight: 600px;
+    line-height: 30px;
+    color: #989D9C;
+    margin-right: 23px;
+    cursor: pointer;
+}
+
+
+.button-1 {
+    border-radius: 50px;
+    height: 41px;
+    width: 130px;
+    background: #993399;
+    font-size: 24px;
+    font-weight: 600px;
+    line-height: 30px;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+}
+
+.logo-img {
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-left: 86px;
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: 900px;
+    line-height: 122px;
+    color: #515151;
+}
+
+h2 {
+    font-size: 58px;
+    font-weight: 500px;
+    line-height: 71px;
+    color: #515151;
+}
+
+p {
+    font-size: 24px;
+    font-weight: 90px;
+    line-height: 30px;
+    color: #848484;
+    width: 515px;
+    margin: 32px 0 65px;
+}
+
+
+.button-2 {
+    border-radius: 50px;
+    border: none;
+    width: 239px;
+    height: 64px;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    background: #00ff00;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 35px;
+    color: #000000;
+}
+
+@media screen and (max-width:750px) {
+
+    .container-superior {
+        display: none;
+    }
+
+    p {
+        display: none;
+    }
+
+    .logo-img {
+        display: block;
+        max-width: 90%;
+        height: auto;
+        margin: 135px 22px 0 14px;
+    }
+
+    section {
+        margin: auto;
+        display: block;
+    }
+
+
+    h1 {
+        margin: 24px 63px 0 64px;
+        text-align: center;
+        height: 55px;
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 30px;
+        margin: 7px 79px 17px;
+        text-align: center;
+        height: 64px;
+    }
+
+    .button-2 {
+        margin: 0 auto;
+        display: block;
+    }
+}
